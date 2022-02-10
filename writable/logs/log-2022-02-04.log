@@ -1,0 +1,53 @@
+ERROR - 2022-02-04 06:55:53 --> Duplicate entry '2' for key 'PRIMARY'
+ERROR - 2022-02-04 07:01:37 --> Duplicate entry '2' for key 'PRIMARY'
+CRITICAL - 2022-02-04 07:04:56 --> Too few arguments to function App\Controllers\Autor::salvar(), 0 passed in C:\wamp64\www\biblioteca\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Autor->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autor))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-04 07:05:43 --> Duplicate entry '2' for key 'PRIMARY'
+ERROR - 2022-02-04 07:06:45 --> Duplicate entry '2' for key 'PRIMARY'
+CRITICAL - 2022-02-04 07:14:35 --> Too few arguments to function App\Controllers\Aluno::editar(), 0 passed in C:\wamp64\www\biblioteca\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->editar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-04 07:19:27 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-04 07:20:34 --> Duplicate entry '6' for key 'PRIMARY'
+ERROR - 2022-02-04 07:20:40 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-04 07:25:25 --> Duplicate entry '10' for key 'PRIMARY'
+ERROR - 2022-02-04 07:25:32 --> Duplicate entry '11' for key 'PRIMARY'
+ERROR - 2022-02-04 07:26:00 --> Duplicate entry '10' for key 'PRIMARY'
+ERROR - 2022-02-04 07:26:08 --> Duplicate entry '11' for key 'PRIMARY'
+ERROR - 2022-02-04 07:26:22 --> Duplicate entry '11' for key 'PRIMARY'
+ERROR - 2022-02-04 07:26:33 --> Duplicate entry '10' for key 'PRIMARY'
+ERROR - 2022-02-04 07:28:07 --> Duplicate entry '10' for key 'PRIMARY'
+ERROR - 2022-02-04 07:28:12 --> Duplicate entry '11' for key 'PRIMARY'
+ERROR - 2022-02-04 07:28:21 --> Duplicate entry '10' for key 'PRIMARY'
+ERROR - 2022-02-04 07:30:08 --> Duplicate entry '15' for key 'PRIMARY'
+ERROR - 2022-02-04 07:35:20 --> Duplicate entry '15' for key 'PRIMARY'
+ERROR - 2022-02-04 07:35:39 --> Duplicate entry '15' for key 'PRIMARY'
+ERROR - 2022-02-04 07:38:31 --> Duplicate entry '93' for key 'PRIMARY'
+ERROR - 2022-02-04 07:38:37 --> Duplicate entry '92' for key 'PRIMARY'
+ERROR - 2022-02-04 07:39:10 --> Duplicate entry '94' for key 'PRIMARY'
+ERROR - 2022-02-04 07:39:25 --> Duplicate entry '93' for key 'PRIMARY'
+ERROR - 2022-02-04 07:39:35 --> Duplicate entry '91' for key 'PRIMARY'
+ERROR - 2022-02-04 07:42:23 --> Duplicate entry '91' for key 'PRIMARY'
+CRITICAL - 2022-02-04 07:42:34 --> Too few arguments to function App\Controllers\Aluno::salvar(), 0 passed in C:\wamp64\www\biblioteca\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-04 07:42:54 --> There is no data to insert.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\wamp64\www\biblioteca\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(29): CodeIgniter\Model->insert(Array)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

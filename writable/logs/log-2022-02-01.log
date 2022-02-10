@@ -1,0 +1,172 @@
+ERROR - 2022-02-01 05:55:54 --> Column 'data_nascimento' cannot be null
+ERROR - 2022-02-01 05:56:19 --> Column 'aluno' cannot be null
+ERROR - 2022-02-01 05:58:33 --> Column 'data_nascimento' cannot be null
+CRITICAL - 2022-02-01 06:07:08 --> Argument 2 passed to CodeIgniter\Model::insert() must be of the type bool, array given, called in C:\wamp64\www\biblioteca\app\Controllers\Aluno.php on line 49
+#0 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(49): CodeIgniter\Model->insert('aluno', Array)
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-01 06:11:29 --> Column 'aluno' cannot be null
+CRITICAL - 2022-02-01 06:13:01 --> Call to a member function insert() on null
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-01 06:30:30 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 06:32:04 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 06:35:07 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 06:36:49 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 06:38:32 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 06:39:23 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-02-01 06:39:23 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\biblioteca\app\Views\v_lstAluno.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\b...', 42, Array)
+#1 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('v_lstAluno', Array, true)
+#4 C:\wamp64\www\biblioteca\app\Views\template.php(20): view('v_lstAluno')
+#5 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#6 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#8 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(52): view('template', Array)
+#9 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#10 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#11 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-01 06:39:38 --> There is no data to insert.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\wamp64\www\biblioteca\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(49): CodeIgniter\Model->insert(Array)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-01 06:41:24 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 06:44:42 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-02-01 06:52:44 --> There is no data to insert.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\wamp64\www\biblioteca\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(49): CodeIgniter\Model->insert(Array)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar('editar', '1')
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 06:53:03 --> There is no data to insert.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\wamp64\www\biblioteca\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(49): CodeIgniter\Model->insert(Array)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar('editar', '1')
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 06:54:16 --> There is no data to insert.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\wamp64\www\biblioteca\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(49): CodeIgniter\Model->insert(Array)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar('editar', '1')
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 06:54:30 --> There is no data to insert.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\wamp64\www\biblioteca\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(49): CodeIgniter\Model->insert(Array)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar('editar', '1')
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-01 06:54:59 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 07:11:35 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 07:13:06 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 07:24:16 --> Duplicate entry '32' for key 'PRIMARY'
+ERROR - 2022-02-01 07:26:22 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-02-01 07:27:05 --> There is no data to insert.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\wamp64\www\biblioteca\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(51): CodeIgniter\Model->insert(Array)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-01 07:27:27 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 07:29:21 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 11:06:18 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 11:06:43 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 11:06:49 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 11:07:27 --> Duplicate entry '38' for key 'PRIMARY'
+ERROR - 2022-02-01 11:28:22 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 11:31:14 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 11:41:45 --> Duplicate entry '40' for key 'PRIMARY'
+ERROR - 2022-02-01 11:42:09 --> Duplicate entry '40' for key 'PRIMARY'
+ERROR - 2022-02-01 11:44:17 --> Duplicate entry '41' for key 'PRIMARY'
+ERROR - 2022-02-01 11:48:20 --> Duplicate entry '42' for key 'PRIMARY'
+ERROR - 2022-02-01 11:48:39 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 11:50:01 --> Duplicate entry '43' for key 'PRIMARY'
+ERROR - 2022-02-01 11:54:37 --> Duplicate entry '43' for key 'PRIMARY'
+CRITICAL - 2022-02-01 11:59:08 --> Too few arguments to function App\Controllers\Aluno::atualizar(), 0 passed in C:\wamp64\www\biblioteca\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->atualizar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-01 12:00:27 --> Too few arguments to function App\Controllers\Aluno::atualizar(), 0 passed in C:\wamp64\www\biblioteca\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->atualizar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-01 12:02:16 --> Duplicate entry '44' for key 'PRIMARY'
+ERROR - 2022-02-01 12:02:34 --> Duplicate entry '44' for key 'PRIMARY'
+ERROR - 2022-02-01 12:17:48 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 12:18:14 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 12:27:04 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 12:27:40 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 12:32:50 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 12:40:06 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 12:43:47 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 12:44:06 --> Duplicate entry '46' for key 'PRIMARY'
+ERROR - 2022-02-01 12:47:11 --> Duplicate entry '46' for key 'PRIMARY'
+ERROR - 2022-02-01 12:47:55 --> Duplicate entry '46' for key 'PRIMARY'
+CRITICAL - 2022-02-01 12:57:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-01 12:58:27 --> Call to a member function insert() on null
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-01 12:59:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-01 13:00:07 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-02-01 13:04:04 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\biblioteca\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('aluno/editar/1')
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('aluno/editar/1')
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-01 13:04:25 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-01 13:05:17 --> Duplicate entry '1' for key 'PRIMARY'

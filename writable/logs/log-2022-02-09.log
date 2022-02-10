@@ -1,0 +1,332 @@
+ERROR - 2022-02-09 06:01:49 --> Duplicate entry '23' for key 'PRIMARY'
+ERROR - 2022-02-09 06:02:05 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 06:02:18 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 06:02:27 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 06:02:43 --> Duplicate entry '27' for key 'PRIMARY'
+ERROR - 2022-02-09 06:02:43 --> Duplicate entry '27' for key 'PRIMARY'
+ERROR - 2022-02-09 06:05:05 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 06:07:00 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 06:07:12 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 06:07:19 --> Duplicate entry '32' for key 'PRIMARY'
+ERROR - 2022-02-09 06:07:19 --> Duplicate entry '32' for key 'PRIMARY'
+ERROR - 2022-02-09 06:08:35 --> Duplicate entry '31' for key 'PRIMARY'
+CRITICAL - 2022-02-09 06:08:35 --> There is no data to update.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\biblioteca\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, NULL)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Autor.php(37): CodeIgniter\Model->update(NULL, NULL)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Autor->salvar()
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autor))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-09 06:08:47 --> There is no data to insert.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\wamp64\www\biblioteca\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Autor.php(29): CodeIgniter\Model->insert(Array)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Autor->salvar()
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autor))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-09 06:09:03 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 06:09:09 --> Duplicate entry '31' for key 'PRIMARY'
+ERROR - 2022-02-09 06:09:09 --> Duplicate entry '31' for key 'PRIMARY'
+ERROR - 2022-02-09 06:09:29 --> Duplicate entry '32' for key 'PRIMARY'
+ERROR - 2022-02-09 06:09:29 --> Duplicate entry '32' for key 'PRIMARY'
+ERROR - 2022-02-09 06:10:36 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 06:11:29 --> Duplicate entry '35' for key 'PRIMARY'
+ERROR - 2022-02-09 06:11:29 --> Duplicate entry '35' for key 'PRIMARY'
+ERROR - 2022-02-09 06:11:38 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 06:12:00 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-02-09 06:13:39 --> There is no data to update.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\biblioteca\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Autor.php(37): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Autor->salvar()
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autor))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-09 06:17:41 --> Duplicate entry '40' for key 'PRIMARY'
+ERROR - 2022-02-09 06:18:19 --> Duplicate entry '40' for key 'PRIMARY'
+ERROR - 2022-02-09 06:18:41 --> Duplicate entry '40' for key 'PRIMARY'
+ERROR - 2022-02-09 06:19:54 --> Duplicate entry '41' for key 'PRIMARY'
+ERROR - 2022-02-09 06:21:15 --> Duplicate entry '43' for key 'PRIMARY'
+ERROR - 2022-02-09 06:26:59 --> Duplicate entry '43' for key 'PRIMARY'
+ERROR - 2022-02-09 06:27:08 --> Duplicate entry '43' for key 'PRIMARY'
+ERROR - 2022-02-09 06:29:02 --> Duplicate entry '44' for key 'PRIMARY'
+ERROR - 2022-02-09 06:38:25 --> Duplicate entry '45' for key 'PRIMARY'
+CRITICAL - 2022-02-09 06:44:05 --> Call to a member function post() on null
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Autor->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autor))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-09 06:45:04 --> Call to a member function post() on null
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Autor->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autor))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-09 06:46:06 --> Call to a member function post() on null
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Autor->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autor))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-09 06:46:50 --> Duplicate entry '45' for key 'PRIMARY'
+ERROR - 2022-02-09 06:48:04 --> Duplicate entry '45' for key 'PRIMARY'
+ERROR - 2022-02-09 06:51:02 --> Duplicate entry '45' for key 'PRIMARY'
+ERROR - 2022-02-09 06:52:37 --> Duplicate entry '45' for key 'PRIMARY'
+ERROR - 2022-02-09 06:53:03 --> Duplicate entry '45' for key 'PRIMARY'
+ERROR - 2022-02-09 06:53:29 --> Duplicate entry '45' for key 'PRIMARY'
+ERROR - 2022-02-09 06:58:29 --> Duplicate entry '47' for key 'PRIMARY'
+ERROR - 2022-02-09 06:58:35 --> Duplicate entry '46' for key 'PRIMARY'
+ERROR - 2022-02-09 06:58:40 --> Duplicate entry '45' for key 'PRIMARY'
+ERROR - 2022-02-09 06:59:40 --> Duplicate entry '47' for key 'PRIMARY'
+ERROR - 2022-02-09 06:59:44 --> Duplicate entry '46' for key 'PRIMARY'
+ERROR - 2022-02-09 07:00:01 --> Duplicate entry '45' for key 'PRIMARY'
+ERROR - 2022-02-09 07:01:00 --> Duplicate entry '45' for key 'PRIMARY'
+ERROR - 2022-02-09 07:21:35 --> Duplicate entry '48' for key 'PRIMARY'
+ERROR - 2022-02-09 07:21:43 --> Duplicate entry '45' for key 'PRIMARY'
+ERROR - 2022-02-09 07:25:51 --> Duplicate entry '48' for key 'PRIMARY'
+ERROR - 2022-02-09 07:26:58 --> Duplicate entry '48' for key 'PRIMARY'
+ERROR - 2022-02-09 07:27:40 --> Duplicate entry '48' for key 'PRIMARY'
+ERROR - 2022-02-09 07:28:01 --> Duplicate entry '48' for key 'PRIMARY'
+ERROR - 2022-02-09 07:28:33 --> Duplicate entry '48' for key 'PRIMARY'
+ERROR - 2022-02-09 07:29:06 --> Duplicate entry '48' for key 'PRIMARY'
+ERROR - 2022-02-09 07:29:33 --> Duplicate entry '48' for key 'PRIMARY'
+ERROR - 2022-02-09 07:31:01 --> Duplicate entry '48' for key 'PRIMARY'
+ERROR - 2022-02-09 07:32:22 --> Duplicate entry '48' for key 'PRIMARY'
+ERROR - 2022-02-09 07:33:19 --> Duplicate entry '48' for key 'PRIMARY'
+ERROR - 2022-02-09 07:33:36 --> Duplicate entry '49' for key 'PRIMARY'
+ERROR - 2022-02-09 07:35:31 --> Duplicate entry '49' for key 'PRIMARY'
+ERROR - 2022-02-09 07:37:58 --> Duplicate entry '49' for key 'PRIMARY'
+CRITICAL - 2022-02-09 07:37:58 --> There is no data to update.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\biblioteca\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Autor.php(44): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Autor->salvar()
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autor))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-09 07:38:30 --> Duplicate entry '49' for key 'PRIMARY'
+ERROR - 2022-02-09 07:38:56 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 07:39:07 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 07:39:15 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 07:39:21 --> Duplicate entry '50' for key 'PRIMARY'
+ERROR - 2022-02-09 07:39:21 --> Duplicate entry '50' for key 'PRIMARY'
+ERROR - 2022-02-09 07:39:58 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 07:40:04 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 07:40:59 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 07:44:33 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 07:44:44 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 07:44:55 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 07:45:09 --> Duplicate entry '58' for key 'PRIMARY'
+ERROR - 2022-02-09 07:45:09 --> Duplicate entry '58' for key 'PRIMARY'
+ERROR - 2022-02-09 07:45:14 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 07:45:45 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-09 07:49:44 --> Duplicate entry '63' for key 'PRIMARY'
+CRITICAL - 2022-02-09 07:52:09 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\wamp64\www\biblioteca\app\Controllers\Autor.php on line 38
+#0 C:\wamp64\www\biblioteca\app\Controllers\Autor.php(38): CodeIgniter\Database\BaseBuilder->update('id_autor', Array)
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Autor->salvar()
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autor))
+#3 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-09 07:52:44 --> Duplicate entry '65' for key 'PRIMARY'
+ERROR - 2022-02-09 07:55:20 --> Duplicate entry '66' for key 'PRIMARY'
+ERROR - 2022-02-09 07:56:28 --> Duplicate entry '67' for key 'PRIMARY'
+ERROR - 2022-02-09 07:57:29 --> Duplicate entry '67' for key 'PRIMARY'
+ERROR - 2022-02-09 07:58:31 --> Duplicate entry '11' for key 'PRIMARY'
+ERROR - 2022-02-09 08:01:29 --> Duplicate entry '108' for key 'PRIMARY'
+CRITICAL - 2022-02-09 11:21:57 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\wamp64\www\biblioteca\app\Controllers\Autor.php on line 42
+#0 C:\wamp64\www\biblioteca\app\Controllers\Autor.php(42): CodeIgniter\Database\BaseBuilder->update('68', NULL)
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Autor->salvar()
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autor))
+#3 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-09 12:00:46 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:01:00 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:02:57 --> Unknown column 'nascimento' in 'field list'
+ERROR - 2022-02-09 12:02:57 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:04:59 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:05:22 --> Unknown column 'nascimento' in 'field list'
+ERROR - 2022-02-09 12:05:22 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:07:37 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:07:44 --> Unknown column 'nascimento' in 'field list'
+ERROR - 2022-02-09 12:07:44 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:09:55 --> Unknown column 'nascimento' in 'field list'
+ERROR - 2022-02-09 12:09:55 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:11:00 --> Unknown column 'nascimento' in 'field list'
+ERROR - 2022-02-09 12:11:00 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:12:44 --> Unknown column 'nascimento' in 'field list'
+ERROR - 2022-02-09 12:12:44 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:17:51 --> Unknown column 'nascimento' in 'field list'
+ERROR - 2022-02-09 12:17:51 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:23:39 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:23:47 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:24:35 --> Unknown column 'pai' in 'field list'
+CRITICAL - 2022-02-09 12:25:23 --> There is no data to update.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\biblioteca\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(81): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-09 12:25:49 --> Unknown column 'pai' in 'field list'
+ERROR - 2022-02-09 12:26:20 --> Unknown column 'pai' in 'field list'
+CRITICAL - 2022-02-09 12:27:28 --> There is no data to update.
+#0 C:\wamp64\www\biblioteca\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\biblioteca\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\biblioteca\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(81): CodeIgniter\Model->update('111', NULL)
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#6 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-09 13:01:53 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\biblioteca\app\Views\v_frmAcervo.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\b...', 58, Array)
+#1 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('v_frmAcervo', Array, true)
+#4 C:\wamp64\www\biblioteca\app\Views\template.php(20): view('v_frmAcervo')
+#5 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#6 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#8 C:\wamp64\www\biblioteca\app\Controllers\Acervo.php(106): view('template', Array)
+#9 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Acervo->editar('25')
+#10 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acervo))
+#11 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 13:06:15 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\biblioteca\app\Views\v_frmAcervo.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\b...', 58, Array)
+#1 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('v_frmAcervo', Array, true)
+#4 C:\wamp64\www\biblioteca\app\Views\template.php(20): view('v_frmAcervo')
+#5 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#6 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#8 C:\wamp64\www\biblioteca\app\Controllers\Acervo.php(106): view('template', Array)
+#9 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Acervo->editar('26')
+#10 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acervo))
+#11 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 13:08:18 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\biblioteca\app\Views\v_frmAcervo.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\b...', 58, Array)
+#1 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('v_frmAcervo', Array, true)
+#4 C:\wamp64\www\biblioteca\app\Views\template.php(20): view('v_frmAcervo')
+#5 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#6 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#8 C:\wamp64\www\biblioteca\app\Controllers\Acervo.php(106): view('template', Array)
+#9 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Acervo->editar('26')
+#10 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acervo))
+#11 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 13:08:43 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\biblioteca\app\Views\v_frmAcervo.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\b...', 58, Array)
+#1 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('v_frmAcervo', Array, true)
+#4 C:\wamp64\www\biblioteca\app\Views\template.php(20): view('v_frmAcervo')
+#5 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#6 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#8 C:\wamp64\www\biblioteca\app\Controllers\Acervo.php(106): view('template', Array)
+#9 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Acervo->editar('26')
+#10 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acervo))
+#11 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 13:09:07 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\biblioteca\app\Views\v_frmAcervo.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\b...', 58, Array)
+#1 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('v_frmAcervo', Array, true)
+#4 C:\wamp64\www\biblioteca\app\Views\template.php(20): view('v_frmAcervo')
+#5 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#6 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#8 C:\wamp64\www\biblioteca\app\Controllers\Acervo.php(106): view('template', Array)
+#9 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Acervo->editar('26')
+#10 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acervo))
+#11 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 13:10:33 --> Use of undefined constant id_acervo - assumed 'id_acervo' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\biblioteca\app\Views\v_lstAcervo.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\b...', 58, Array)
+#1 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('v_lstAcervo', Array, true)
+#4 C:\wamp64\www\biblioteca\app\Views\template.php(20): view('v_lstAcervo')
+#5 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#6 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#8 C:\wamp64\www\biblioteca\app\Controllers\Acervo.php(16): view('template', Array)
+#9 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Acervo->index()
+#10 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acervo))
+#11 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 13:11:06 --> Use of undefined constant id_acervo - assumed 'id_acervo' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\biblioteca\app\Views\v_lstAcervo.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\b...', 58, Array)
+#1 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('v_lstAcervo', Array, true)
+#4 C:\wamp64\www\biblioteca\app\Views\template.php(20): view('v_lstAcervo')
+#5 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#6 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#8 C:\wamp64\www\biblioteca\app\Controllers\Acervo.php(16): view('template', Array)
+#9 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Acervo->index()
+#10 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acervo))
+#11 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 13:11:34 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\biblioteca\app\Views\v_frmAcervo.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\b...', 58, Array)
+#1 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('v_frmAcervo', Array, true)
+#4 C:\wamp64\www\biblioteca\app\Views\template.php(20): view('v_frmAcervo')
+#5 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#6 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#8 C:\wamp64\www\biblioteca\app\Controllers\Acervo.php(106): view('template', Array)
+#9 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Acervo->editar('26')
+#10 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acervo))
+#11 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 13:18:38 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\biblioteca\app\Views\v_frmAcervo.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\b...', 68, Array)
+#1 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('v_frmAcervo', Array, true)
+#4 C:\wamp64\www\biblioteca\app\Views\template.php(20): view('v_frmAcervo')
+#5 C:\wamp64\www\biblioteca\system\View\View.php(210): include('C:\\wamp64\\www\\b...')
+#6 C:\wamp64\www\biblioteca\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\biblioteca\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#8 C:\wamp64\www\biblioteca\app\Controllers\Acervo.php(106): view('template', Array)
+#9 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Acervo->editar('28')
+#10 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acervo))
+#11 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

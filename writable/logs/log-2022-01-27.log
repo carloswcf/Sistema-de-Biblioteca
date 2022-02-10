@@ -1,0 +1,66 @@
+CRITICAL - 2022-01-27 05:14:04 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\biblioteca\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\biblioteca\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(29): redirect('aluno')
+#3 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-27 06:51:38 --> Call to a member function insert() on array
+#0 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(28): App\Models\AlunoModel->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-27 08:43:20 --> Unknown column 'referencia' in 'field list'
+ERROR - 2022-01-27 08:43:57 --> Unknown column 'referencia' in 'field list'
+ERROR - 2022-01-27 09:06:09 --> Unknown column 'referencia' in 'field list'
+CRITICAL - 2022-01-27 09:17:17 --> Call to a member function insert() on null
+#0 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(26): App\Models\AlunoModel->cadastrar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:24:57 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\biblioteca\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\biblioteca\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(28): redirect('aluno')
+#3 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-27 12:56:07 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\biblioteca\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\biblioteca\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\biblioteca\app\Controllers\Aluno.php(29): redirect('aluno')
+#3 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#4 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-01-27 13:24:58 --> Unknown column 'referencia' in 'field list'
+ERROR - 2022-01-27 13:32:58 --> Unknown column 'referencia' in 'field list'
+ERROR - 2022-01-27 13:37:52 --> Unknown column 'referencia' in 'field list'
+ERROR - 2022-01-27 13:39:57 --> Unknown column 'referencia' in 'field list'
+ERROR - 2022-01-27 13:46:14 --> Unknown column 'referencia' in 'field list'
+ERROR - 2022-01-27 13:47:07 --> Unknown column 'referencia' in 'field list'
+ERROR - 2022-01-27 13:48:39 --> Unknown column 'referencia' in 'field list'
+ERROR - 2022-01-27 13:50:13 --> Unknown column 'referencia' in 'field list'
+ERROR - 2022-01-27 13:56:45 --> Unknown column 'referencia' in 'field list'
+CRITICAL - 2022-01-27 14:04:59 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getPos()
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 14:05:38 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getPos()
+#0 C:\wamp64\www\biblioteca\system\CodeIgniter.php(825): App\Controllers\Aluno->salvar()
+#1 C:\wamp64\www\biblioteca\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\wamp64\www\biblioteca\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-27 14:06:03 --> Unknown column 'referencia' in 'field list'
